@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:lasherfeather/adminUser:password
+  username: admin
+dashboardUrl: https://dashboard.play-jxaas.live
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:lasherfeather/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:lasherfeather/prow:hmacToken
+segmentWriteKey: vault:lasherfeather:segmentWriteKey
